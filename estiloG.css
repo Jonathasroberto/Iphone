@@ -49,6 +49,7 @@ iframe#tela{
     border-radius: 50%; 
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
     box-sizing: border-box;
+    
 }
 #redes > a > img:hover{
     border: 2px solid rgba(245, 245, 245, 0.500);
@@ -56,4 +57,5 @@ iframe#tela{
     box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.500);
     transition: transform,  0.8s;
     transition: border 0.9s;
+    text-decoration: none;
 }
