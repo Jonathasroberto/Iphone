@@ -1,5 +1,6 @@
 @charset "utf-8";
 *{
+    overflow: hidden;
     margin: 0px;
     padding: 0px;
 
@@ -24,9 +25,6 @@ body{
     background: url(imagens/frame-iphone.png) no-repeat;
     }
 
-    
-    
-
 
 iframe#tela{
     transform: translate(-50%, -50%);
@@ -35,8 +33,27 @@ iframe#tela{
     left: 50%;
 
     width: 270px;
-    height: 475px;
+    height: 475px; 
 
+}
+#redes{
+    text-align: right;
     
+    
+}
 
+#redes > a > img{
+    width: 60px;
+    height: 60px;
+    margin: 8px;
+    border-radius: 50%; 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.452);
+    box-sizing: border-box;
+}
+#redes > a > img:hover{
+    border: 2px solid rgba(245, 245, 245, 0.500);
+    transform: translate( -10px, -10px);
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.500);
+    transition: transform,  0.8s;
+    transition: border 0.9s;
 }
